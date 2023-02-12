@@ -1,23 +1,27 @@
 <template>
-  
   <div>
-      <router-view></router-view>
+    <router-view></router-view>
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style lang="scss" scoped>
-html,body{
+<style lang="scss">
+html,
+body,a,ul,li {
   margin: 0;
   padding: 0;
+  list-style:none;
+  
 }
-.container{
+.container {
   width: 400px;
-  height: 80px;
+  // height: 80px;
   display: flex;
   flex-wrap: wrap;
+}
+html {
+  font-size: smaller;
+  color: $text;
 }
 </style>
